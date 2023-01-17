@@ -1,0 +1,27 @@
+{
+  "name": "tamreen",
+  "version": "1.0.0",
+  "description": "Tamreen App Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "HabibPayenda",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "date-fns": "^2.17.0",
+    "expo-server-sdk": "^3.6.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fileupload": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "multer": "^1.4.2",
+    "qrcode": "^1.4.4",
+    "twilio": "^3.57.0"
+  }
+}
